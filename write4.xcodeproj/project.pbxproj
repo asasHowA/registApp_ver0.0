@@ -13,6 +13,15 @@
 		8B09127F2976A1A90048F9DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B09127D2976A1A90048F9DD /* Main.storyboard */; };
 		8B0912812976A1AB0048F9DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0912802976A1AB0048F9DD /* Assets.xcassets */; };
 		8B0912842976A1AB0048F9DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B0912822976A1AB0048F9DD /* LaunchScreen.storyboard */; };
+		8B7C2266297B4C7000ADF6DF /* start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C2265297B4C7000ADF6DF /* start.swift */; };
+		8B7C2268297C099600ADF6DF /* cp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C2267297C099600ADF6DF /* cp1.swift */; };
+		8B7C226A297DAD5A00ADF6DF /* cp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C2269297DAD5A00ADF6DF /* cp2.swift */; };
+		8B7C228E297DF06000ADF6DF /* regist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C228D297DF06000ADF6DF /* regist.swift */; };
+		8B7C2290297DF98700ADF6DF /* input.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C228F297DF98700ADF6DF /* input.swift */; };
+		8B7C2292297E1A7700ADF6DF /* outPut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7C2291297E1A7700ADF6DF /* outPut.swift */; };
+		8BAB117B297FD2D2006BCFED /* filename.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB117A297FD2D2006BCFED /* filename.swift */; };
+		8BBBA13829787A1F0036E262 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBBA13729787A1F0036E262 /* ViewController2.swift */; };
+		8BCA040F2980A38500F85A69 /* Drawview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA040E2980A38500F85A69 /* Drawview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,16 @@
 		8B0912802976A1AB0048F9DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B0912832976A1AB0048F9DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B0912852976A1AB0048F9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B09128B2976A1B60048F9DD /* write4.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = write4.entitlements; sourceTree = "<group>"; };
+		8B7C2265297B4C7000ADF6DF /* start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = start.swift; sourceTree = "<group>"; };
+		8B7C2267297C099600ADF6DF /* cp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cp1.swift; sourceTree = "<group>"; };
+		8B7C2269297DAD5A00ADF6DF /* cp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cp2.swift; sourceTree = "<group>"; };
+		8B7C228D297DF06000ADF6DF /* regist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = regist.swift; sourceTree = "<group>"; };
+		8B7C228F297DF98700ADF6DF /* input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = input.swift; sourceTree = "<group>"; };
+		8B7C2291297E1A7700ADF6DF /* outPut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = outPut.swift; sourceTree = "<group>"; };
+		8BAB117A297FD2D2006BCFED /* filename.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filename.swift; sourceTree = "<group>"; };
+		8BBBA13729787A1F0036E262 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		8BCA040E2980A38500F85A69 /* Drawview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +75,20 @@
 		8B0912762976A1A90048F9DD /* write4 */ = {
 			isa = PBXGroup;
 			children = (
+				8B09128B2976A1B60048F9DD /* write4.entitlements */,
 				8B0912772976A1A90048F9DD /* AppDelegate.swift */,
 				8B0912792976A1A90048F9DD /* SceneDelegate.swift */,
 				8B09127B2976A1A90048F9DD /* ViewController.swift */,
+				8B7C2265297B4C7000ADF6DF /* start.swift */,
+				8BBBA13729787A1F0036E262 /* ViewController2.swift */,
+				8B7C2267297C099600ADF6DF /* cp1.swift */,
+				8B7C2269297DAD5A00ADF6DF /* cp2.swift */,
+				8B7C228D297DF06000ADF6DF /* regist.swift */,
+				8BCA040E2980A38500F85A69 /* Drawview.swift */,
+				8B7C228F297DF98700ADF6DF /* input.swift */,
+				8B7C2291297E1A7700ADF6DF /* outPut.swift */,
 				8B09127D2976A1A90048F9DD /* Main.storyboard */,
+				8BAB117A297FD2D2006BCFED /* filename.swift */,
 				8B0912802976A1AB0048F9DD /* Assets.xcassets */,
 				8B0912822976A1AB0048F9DD /* LaunchScreen.storyboard */,
 				8B0912852976A1AB0048F9DD /* Info.plist */,
@@ -138,9 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7C2290297DF98700ADF6DF /* input.swift in Sources */,
+				8BAB117B297FD2D2006BCFED /* filename.swift in Sources */,
+				8B7C2268297C099600ADF6DF /* cp1.swift in Sources */,
+				8B7C2292297E1A7700ADF6DF /* outPut.swift in Sources */,
 				8B09127C2976A1A90048F9DD /* ViewController.swift in Sources */,
+				8BBBA13829787A1F0036E262 /* ViewController2.swift in Sources */,
+				8BCA040F2980A38500F85A69 /* Drawview.swift in Sources */,
+				8B7C2266297B4C7000ADF6DF /* start.swift in Sources */,
 				8B0912782976A1A90048F9DD /* AppDelegate.swift in Sources */,
+				8B7C228E297DF06000ADF6DF /* regist.swift in Sources */,
 				8B09127A2976A1A90048F9DD /* SceneDelegate.swift in Sources */,
+				8B7C226A297DAD5A00ADF6DF /* cp2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = write4/write4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5NZKXSLJ4Q;
@@ -313,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = write4/write4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5NZKXSLJ4Q;
